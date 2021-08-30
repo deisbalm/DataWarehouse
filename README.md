@@ -16,9 +16,9 @@
   - nodemon
   - sequilize
 
-5- El archivo "api.js" posee la confifiguracion del servidor el cual correra por el puerto 3500. El archivo "conexion.js" posee la configuracion de sequelize y la ruta a donde se alojara la BD que se genere con la informacion del archivo SQL
+5- El archivo "server.js" posee la confifiguracion del servidor el cual correra por el puerto 3500. El archivo "connection.js" posee la configuracion de sequelize y la ruta a donde se alojara la BD que se genere con la informacion del archivo SQL
 
-6- Ejecutar el comando nodemon back/api.js
+6- Ejecutar el comando nodemon back/server.js
 
 7- Verificar que el servidor indique en la consola que se ha inicializado en el puerto 3500 y se ha conectado en la base de datos.
 
@@ -36,3 +36,4 @@
  * Perfil: Usuario normal
  	* usuario: Anon@user.com
  	* password: 1234
+
